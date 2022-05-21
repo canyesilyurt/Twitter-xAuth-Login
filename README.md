@@ -29,4 +29,4 @@ proxyAddress: 'socks5://45.155.125.200:9866' // only socks5 proxy
 
 ## License
 
-Can Yesilyurt
+[Can Yesilyurt](https://canyesilyurt.com)
