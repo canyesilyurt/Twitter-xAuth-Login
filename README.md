@@ -1,6 +1,6 @@
 # cy-tw-xauth-proxy
 
-Authenticate Twitter account using XAuth for Node.JS
+Authenticate Twitter account using XAuth.
 
 ## Installation
 
@@ -18,7 +18,7 @@ xauth({
   password: 'PASSWORD',
   consumerKey: 'CjulERsDeqhhjSme66ECg',
   consumerSecret: 'IQWdVyqFxghAtURHGeGiWAsmCAGmdW3WmbEx6Hck', 
-proxyAddress: 'socks5://45.155.125.200:9866' // only socks5 proxy
+  proxyAddress: 'socks5://45.155.125.200:9866' // only socks5 proxy
     }).then((cyxauth) => {
       console.log(cyxauth.oauth_token);
       console.log(cyxauth.oauth_token_secret);
