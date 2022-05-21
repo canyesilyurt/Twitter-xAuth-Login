@@ -5,13 +5,13 @@ Authenticate Twitter account using XAuth.
 ## Installation
 
 ```
-$ npm install cy-tw-xauth-proxy
+$ npm install cy-twitter-xauth
 ```
 
 ## Usage
 
 ```js
-const { xauth } = require('cy-tw-xauth-proxy');
+const { xauth } = require('cy-twitter-xauth');
 
 xauth({
   screenName: 'SCREEN_NAME',
