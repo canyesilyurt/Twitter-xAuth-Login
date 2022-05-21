@@ -1,4 +1,4 @@
-# cy-tw-xauth-proxy
+# Twitter xAuth Login w/Proxy
 
 Authenticate Twitter account using XAuth.
 
