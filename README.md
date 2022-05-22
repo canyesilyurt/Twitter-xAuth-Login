@@ -1,4 +1,4 @@
-# Twitter xAuth Login w/Proxy
+# Twitter xAuth Login w/Proxy for Node.JS
 
 Authenticate Twitter account using XAuth.
 
