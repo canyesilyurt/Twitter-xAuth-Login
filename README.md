@@ -12,13 +12,16 @@ $ npm install cy-twitter-xauth
 
 ```js
 const { xauth } = require('cy-twitter-xauth');
-
+// Only sock5 support
 xauth({
   screenName: 'SCREEN_NAME',
   password: 'PASSWORD',
   consumerKey: 'CjulERsDeqhhjSme66ECg',
   consumerSecret: 'IQWdVyqFxghAtURHGeGiWAsmCAGmdW3WmbEx6Hck', 
-  proxyAddress: 'socks5://45.155.125.200:9866' // only socks5 proxy
+  proxyAddress: '45.155.125.200',
+  proxyPort: '9866',
+  proxyAuthUser: 'username',
+  proxyAuthPass: 'password'
     }).then((cyxauth) => {
       console.log(cyxauth.oauth_token);
       console.log(cyxauth.oauth_token_secret);
@@ -29,4 +32,4 @@ xauth({
 
 ## License
 
-[Can Yesilyurt](https://canyesilyurt.com)
+[Can Yesilyurt](https://canyesilyurt.com) & [cy4udev](https://cy4u.dev) 

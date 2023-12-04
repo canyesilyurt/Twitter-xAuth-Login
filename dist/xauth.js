@@ -47,7 +47,16 @@ exports.XauthError = XauthError;
 
 function xauth(config) {
     var proxy = config.proxyAddress;
-    var agent = new SocksProxyAgent(proxy);
+   
+    const info = {
+        hostname: config.proxyAddress,  // set hostname of your socks proxy
+        port: config.proxyPort,
+        protocol: 'socks5',
+        auth: config.proxyAuthUser + ':' + config.proxyAuthPass,
+    };
+    var agent = new SocksProxyAgent(info);
+
+    //var agent = new SocksProxyAgent(proxy);
     var oauth = new oauth_1_0a_1.default({
         consumer: {
             key: config.consumerKey,
@@ -101,7 +110,7 @@ function xauth(config) {
             //console.log('Proxy connected!')
         }).catch((err) => {
             //console.log(err)
-            console.log('Proxy connection failed!');
+            //console.log('Proxy connection failed!');
         })
         req.write(query_string_1.default.stringify(data));
         req.end();
