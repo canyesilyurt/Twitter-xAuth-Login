@@ -8,6 +8,7 @@
     "prepublishOnly": "npm run build",
     "test": "jest"
   },
+  
   "keywords": [
     "Twitter xauth login",
     "Twitter login with proxy",
@@ -21,6 +22,10 @@
     "query-string": "^6.9.0",
     "request-promise": "^4.2.6",
     "socks-proxy-agent": "^6.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/canyesilyurt/Twitter-xAuth-Login.git"
   },
   "devDependencies": {
     "@types/jest": "^26.0.5",
