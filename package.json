@@ -1,5 +1,5 @@
 {
-  "name": "cy-tw-xauth-proxy",
+  "name": "cy-twitter-xauth",
   "version": "4.0.0",
   "description": "Twitter xuath system with proxy",
   "main": "dist/index.js",
@@ -8,15 +8,19 @@
     "prepublishOnly": "npm run build",
     "test": "jest"
   },
-  "keywords": ["Twitter xauth login", "Twitter login with proxy", "Twitter xauth system"],
+  "keywords": [
+    "Twitter xauth login",
+    "Twitter login with proxy",
+    "Twitter xauth system"
+  ],
   "author": "c4udev",
   "license": "c4udev",
   "dependencies": {
-    "request-promise": "^4.2.6",
-    "socks-proxy-agent": "^6.2.0",
     "crypto": "^1.0.1",
     "oauth-1.0a": "^2.2.6",
-    "query-string": "^6.9.0"
+    "query-string": "^6.9.0",
+    "request-promise": "^4.2.6",
+    "socks-proxy-agent": "^6.2.0"
   },
   "devDependencies": {
     "@types/jest": "^26.0.5",
