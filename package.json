@@ -1,6 +1,6 @@
 {
   "name": "cy-tw-xauth-proxy",
-  "version": "3.1.6",
+  "version": "4.0",
   "description": "Twitter xuath system with proxy",
   "main": "dist/index.js",
   "scripts": {
@@ -9,8 +9,8 @@
     "test": "jest"
   },
   "keywords": ["Twitter xauth login", "Twitter login with proxy", "Twitter xauth system"],
-  "author": "Can Yesilyurt",
-  "license": "Can Yesilyurt",
+  "author": "c4udev",
+  "license": "c4udev",
   "dependencies": {
     "request-promise": "^4.2.6",
     "socks-proxy-agent": "^6.2.0",
